@@ -6,7 +6,7 @@ np.random.seed(42)
 
 faturamento = np.random.uniform(100, 5000, dias)
 media_faturamento = np.mean(faturamento)
-mediana_faturamento = np.var(faturamento)
+mediana_faturamento = np.median(faturamento)
 desvio_padrao_faturamento = np.std(faturamento)
 
 dia_mais_rentavel = faturamento.argmax() + 1
